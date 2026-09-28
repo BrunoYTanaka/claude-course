@@ -1,0 +1,6 @@
+Create an agent team to review the job portal codebase for bugs. Spawn three teammates:                 
+
+- A security-reviewer focused on auth, credentials, and localStorage security in src/context/AuthContext.jsx and src/pages/Register.jsx                         
+- A bug-investigator tracing the employer job application flow through src/context/JobContext.jsx and src/services/jobApplicationService.js                                - A coding-standards-reviewer checking that data mutations in JobContext (postJob, updateJob, deleteJob) stay consistent between React state and localStorage
+                                                                                                     
+Have each teammate report their findings. Prepare a report. Don't make any changes
